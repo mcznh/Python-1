@@ -1,3 +1,5 @@
+*.rb linguist-language = Python
+
 # Create the playlist dictionary
 playlist = { "The Weeknd" : "Blinding Lights", "Drake" : "One Dance" }
 
