@@ -27,3 +27,15 @@ most_popular_course = "Introduction to dbt"
 # How many characters are in most_popular_course?
 title_length = len(most_popular_course)
 print(title_length)
+
+# Print the total number of course completions
+print(sum(course_completions))
+
+# Print the largest number of completions
+print(max(course_completions))
+
+# Print the average number of completions
+print(sum(course_completions) / len(course_completions))
+
+# Print the average number of completions, rounded to one decimal places
+print(round(sum(course_completions) / len(course_completions), 1))
